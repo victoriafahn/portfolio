@@ -10,9 +10,9 @@
 
 :root{
     --text-color: #fff;
-    --bg-color: #565264;
-    --second-bg-color: #706677;
-    --main-color: #d39d85;
+    --bg-color: #6A8E7F;
+    --second-bg-color: #f0e5a794;
+    --main-color: #DDFCAD;
     --othet-color: #fff;
 
     --h1-font: 4.5rem;
@@ -367,14 +367,19 @@ form .send-btn:hover{
     box-shadow: 0 0 20px var(--main-color);
     cursor: pointer;
 }
-.footer{
-    padding: 22px 16%;
-    background: var(--second-bg-color);
+.footer {
+    padding: 20px;
+    background: var(#dcfcad69);
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
+
 .copyright p{
     font-size: 15px;
     font-weight: 400;
@@ -384,7 +389,7 @@ form .send-btn:hover{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #565264;
+    background: #E6FDC4;
     width: 45px;
     height: 45px;
     border-radius: 50%;
