@@ -168,7 +168,7 @@ header.sticky{
     padding: 16px 16%;
 }
 .about{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
