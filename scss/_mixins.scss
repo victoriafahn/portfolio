@@ -1,0 +1,19 @@
+
+@mixin center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button-style {
+    display: inline-block;
+    padding: 11px 26px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50 ease;
+}
+
+
+@mixin box-shadow($color: #000, $size: 5px) {
+    box-shadow: 0 0 $size $color;
+}

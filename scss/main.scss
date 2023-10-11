@@ -1,0 +1,22 @@
+
+@import 'variables';
+@import 'mixins';
+@import 'header';
+@import 'navbar';
+@import 'sections';
+@import 'footer';
+@import 'media-queries';
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+

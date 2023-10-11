@@ -1,0 +1,49 @@
+.h-btn {
+    display: inline-block;
+    padding: 11px 16px;
+    background: transparent;
+    color: $main-color;
+    border: 2px solid $main-color;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.h-btn:hover {
+    background: $main-color;
+    color: $bg-color;
+    box-shadow: 0 0 20px $main-color;
+    transform: scale(1.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 26px;
+    background: $main-color;
+    color: $bg-color;
+    border: 2px solid $main-color;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50 ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: $main-color;
+    box-shadow: 0 0 20px $main-color;
+}
+
+.btn2 {
+    background: transparent;
+    color: $main-color;
+    border: 2px solid $main-color;
+    margin-left: 15px;
+    transition: all .50s ease;
+}
+
+.btn2:hover {
+    background: $main-color;
+    color: $bg-color;
+}

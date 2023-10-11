@@ -1,0 +1,42 @@
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.success-message {
+    @extend .message;
+    border-color: green;
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 26px;
+    background: $main-color;
+    color: $bg-color;
+    border: 2px solid $main-color;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50 ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: $main-color;
+    box-shadow: 0 0 20px $main-color;
+}
+
+.btn2 {
+    @extend .btn;
+    background: transparent;
+    color: $main-color;
+    border: 2px solid $main-color;
+    margin-left: 15px;
+    transition: all .50s ease;
+}
+
+.btn2:hover {
+    background: $main-color;
+    color: $bg-color;
+}

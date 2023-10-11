@@ -1,0 +1,36 @@
+
+.footer {
+    padding: 20px;
+    background: var(#dcfcad69); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.copyright {
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--other-color);
+    }
+}
+
+.scroll-top {
+    i {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #E6FDC4;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        color: $text-color; 
+        font-size: 27px;
+    }
+}
+
