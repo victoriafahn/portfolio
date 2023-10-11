@@ -62,11 +62,11 @@ span {
         font-weight: 600;
         transition: all .50s ease;
 
-    &:hover {
-        background: $main-color; 
-        color: $bg-color; 
-        box-shadow: 0 0 20px $main-color;
-        transform: scale(1.1);
+        &:hover {
+            background: $main-color; 
+            color: $bg-color; 
+            box-shadow: 0 0 20px $main-color;
+            transform: scale(1.1);
     }
 
 
